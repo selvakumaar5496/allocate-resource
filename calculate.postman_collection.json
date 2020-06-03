@@ -1,0 +1,46 @@
+{
+	"id": "3c74fae4-05d7-a3ce-f9f8-b90f6651e229",
+	"name": "calculate",
+	"description": "",
+	"order": [
+		"6cf86960-7c58-3d39-5b06-4d84fdb7c8df"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1591207884316,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "6cf86960-7c58-3d39-5b06-4d84fdb7c8df",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "192.168.43.91:5000/calculateMinimumCost",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "3c74fae4-05d7-a3ce-f9f8-b90f6651e229",
+			"data": [],
+			"dataMode": "raw",
+			"name": "192.168.43.91:5000/calculateMinimumCost",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1591207886737,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"hours\" : 2,\n\t\"capacity\" : 1150\n}\n"
+		}
+	]
+}
